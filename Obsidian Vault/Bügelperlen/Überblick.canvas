@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"5bb9b533d2cbbbff","type":"file","file":"Bügelperlen/0.1.md","x":120,"y":-248,"width":920,"height":1448,"color":"6"},
+		{"id":"12d7158ce831634d","type":"file","file":"Bügelperlen/1.0.md","x":120,"y":1240,"width":920,"height":1640},
+		{"id":"b342430657679ef1","type":"file","file":"Bügelperlen/1.1.md","x":1160,"y":1240,"width":920,"height":3360},
+		{"id":"4e202b4d234b7139","type":"file","file":"Bügelperlen/3.0 und 5.0.md","x":120,"y":5840,"width":920,"height":2760},
+		{"id":"c3ef73fc6fbe24df","type":"file","file":"Bügelperlen/4.0.md","x":1160,"y":5840,"width":920,"height":3120},
+		{"id":"4f664ae07657f94b","type":"file","file":"Bügelperlen/2.2..md","x":120,"y":4840,"width":920,"height":789},
+		{"id":"2280cd1594b567a6","type":"file","file":"Bügelperlen/Aufgabenliste-v1.md","x":-400,"y":-240,"width":377,"height":6800}
+	],
+	"edges":[
+		{"id":"efea2cdfd1ce4802","fromNode":"5bb9b533d2cbbbff","fromSide":"bottom","toNode":"12d7158ce831634d","toSide":"top"},
+		{"id":"62b7af5cc67070f7","fromNode":"12d7158ce831634d","fromSide":"right","toNode":"b342430657679ef1","toSide":"left"},
+		{"id":"376f5eef634677ff","fromNode":"b342430657679ef1","fromSide":"bottom","toNode":"4f664ae07657f94b","toSide":"top"},
+		{"id":"d5a9c7de49b47dff","fromNode":"4f664ae07657f94b","fromSide":"bottom","toNode":"4e202b4d234b7139","toSide":"top"},
+		{"id":"5362e43a7d92ac20","fromNode":"4e202b4d234b7139","fromSide":"right","toNode":"c3ef73fc6fbe24df","toSide":"left"},
+		{"id":"87c6bb00586a17ef","fromNode":"c3ef73fc6fbe24df","fromSide":"left","toNode":"4e202b4d234b7139","toSide":"right"}
+	]
+}

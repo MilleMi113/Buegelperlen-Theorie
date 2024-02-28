@@ -1,0 +1,3 @@
+Bilderzeugung=Bildgenerierung
+Spielzeuge=Spielsachen
+handeln=agieren=tun
