@@ -1,0 +1,121 @@
+\documentclass[11pt,a4paper,twoside]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{ulem}
+
+\title{Kreativitätsspielzeug: rasterbasierte Spielzeuge zur Bilderzeugung und deren Hackability}
+\author{Camilla Schmider}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Einleitung}
+
+
+\chapter{Begriffsklärung und Forschungsstand}
+
+	\section{Spielzeug}
+	Was ist Spielzeug? Anwendung und Stellenwert von Regeln im Zusammenhang mit Spielzeug
+	
+	\section{Forschungsstand zu den untersuchten Spielzeugsystemen und in dieser Arbeit genutzte Begriffe rund um diese}
+		\subsection{Bügelperlen und anderes rasterbasiertes Kreativspielzeug in der Forschung}
+		ein scheinbar unerforschtes Gebiet.
+		\subsection{Klemmbausteine in Forschung und Fan-Fachkultur}
+		Ausstellungskatalog `Baukästen', Lego-Fanblogs?
+
+	\section{Kreativitätsbegriff und Kreativitätsdiskurs}
+		\subsection{Kreativität nach Reckwitz}
+		u.A. Reckwitz ``Design im Kreativdispositiv''
+		\subsection{Historische Einordnung der Entstehungsgeschichte von Bügelperlen und Klemmbausteinen}
+		u.a. Mareis ``Entwerfen mit System''
+		\subsection{pädagogischer Exkurs: Kreativitätsentwicklung im (Kinder-) Spiel}
+		u.A. Winnicott "vom Spiel zur Kreativität"
+
+
+
+\chapter{Erforschen durch Selbstbeobachtung und Vergleich}
+	\section{Methodenwahl}
+	Warum Selbstbeobachtung? Wo sind die Fallstricke? Warum der Vergleich? 
+		\subsection{Vergleich zwischen Spielzeugsystemen}
+		Wie unterscheiden sich LegoDots von Bügelperlen in Spielmöglichkeiten, Gestaltung und Impulsen zum Regelbruch?
+		\subsection{Vergleich zwischen Regelwerken/Konventionen und dem realen (kreativen) Spiel}
+		um einen Regelbruch festzustellen, müssen erst Regeln und Konventionen definiert werden.
+		\subsection{Vergleich zwischen dem spielerischen Umgang mit den Spielzeugsystemen und dem Kreativitätskonzept nach Reckwitz}
+		\sout{eventuell auch im vagen Vergleich zum üblichen Umgang mit Stift und Karopapier oder einem vermeintlich völlig unkreativen Spielzeug. (welches könnte das sein?)}
+	\section{Aufbau der Selbstbeobachtung}
+Wie habe ich die Selbstbeobachtung strukturiert, die Beobachtungssituation gestaltet und alles dokumentiert?
+
+
+\chapter{Spielregeln und Regelbrüche, sowie deren unterstützende Gestaltungsmerkmale}
+Hier fasse ich meine Beobachtungen zusammen: Im Umgang mit den Produkten und durch die Selbstbeobachtung identifizierte Regeln und Konventionen, wahrgenommene Impulse und Versuche, die festgestellten Regeln zu erweitern, umgehen oder brechen.
+
+
+\chapter{\sout{Verbreitung und Vielfalt von Regelbrüchen in Faninhalten auf populären Social-Media-Plattformen}}
+In einem weiteren Schritt versuche ich über eine kurze Analyse einer kleinen Handvoll der populärsten und neuesten Fan-Inhalte herauszufinden, ob sich ähnliche beobachtungen auch bei mir fremden Personen machen lassen, die nicht durch diese Forschungsarbeit beeinflusst sind, sich allerdings offenbar regelmäßiger und/oder längerfristig intensiver hobbymäßig oder professionalisiert mit den jeweiligen Spielzeugsystemen auseinandersetzen.
+
+
+\chapter{Fazit}
+gibt es einen sweetspot zwischen vorgaben und freiheiten, wenn es um kreative nutzung geht, und wo liegt er mutmaßlich, wenn ich die beiden Spielzeugsysteme betrachte? Diese Arbeit kann nicht beantworten, ob die hier getroffenen Annahmen oder gewonnenen Erkenntnisse für verschiedene Altersklassen und Entwicklungsstufen zutreffen oder gültig sind. Das überschreitet sowohl den Rahmen der Arbeit und meine Fachkompetenz im Feld der Entwicklungspsychologie.
+
+\chapter{Anhang}
+Protokolle der Selbstbeobachtung? 
+
+
+\chapter{\LaTeX{}\\Cheatsheet}
+Dieses Kapitel wird am Ende wieder rausgelöscht, enthält einfach einige nützliche Copy+Paste-Vorlagen.
+\section{Sonderzeichen}
+\textcopyright
+\textregistered
+\texttrademark
+
+\section{durchstreichung}
+Zunächst muss das ulem-Paket \begin{code}\usepackage{ulem}\end{code} eingebunden werden, anschließend können Zeichen oder Zeilen mit \begin{quotation}\sout{text}\end{quotation} durchgestrichen werden.
+
+
+\section{Listen}
+
+Wie funktionieren Listen in \LaTeX{}?\\
+
+\begin{itemize}
+\item erster Stichpunkt 
+\item zweiter Stichpunkt
+\item dritter Stichpunkt
+\end{itemize}
+
+Alternativ gibt es auch nummerierte Listen:
+
+\begin{enumerate}
+\item Hier steht dann zuerst eine 1 
+\item Hier erwartungsgem\"a\ss{} eine 2
+\item Und hier die 3
+\end{enumerate}
+
+
+Diese nummerierten Listen lassen sich auch relativ leicht
+mit Buchstaben anstelle von Zahlen durchnummerieren. 
+Dazu wird die Ausgabe einfach auf Buchstaben umgestellt:
+
+
+\renewcommand{\labelenumi}{\alph{enumi}}
+\begin{enumerate}
+\item Stichpunkt 1
+\item Stichpunkt 2
+\item Stichpunkt 3
+\end{enumerate}
+
+Oder auch die Beschreibung:
+
+\begin{description}
+\item[Stichpunkt 1]{ Stichpunkt 1 handelt von \dots}
+\item[Stichpunkt 2]{ Stichpunkt 2 handelt von \dots}
+\item[Stichpunkt 3]{ Stichpunkt 3 handelt von \dots}
+\end{description}
+
+
+\end{document}
