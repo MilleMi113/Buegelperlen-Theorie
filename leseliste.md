@@ -1,0 +1,7 @@
+- [Reckwitz - Design im Kreativitätsdispositiv](Lesen%20-%20Exzerpte/Reckwitz%20-%20Design%20im%20Kreativitätsdispositiv.md)
+- [Schmidt-Ruhland - Spielprodukte gestalten!](Lesen%20-%20Exzerpte/Schmidt-Ruhland%20-%20Spielprodukte%20gestalten!.md)
+- [Winnicott - Vom Spiel zur Kreativität](Lesen%20-%20Exzerpte/Winnicott%20-%20Vom%20Spiel%20zur%20Kreativität.md)
+- [Zoels - Kreativität - Motivation - Potentiale](Lesen%20-%20Exzerpte/Zoels%20-%20Kreativität%20-%20Motivation%20-%20Potentiale.md)
+- [Jormakka, Schürer, Kuhlmann - Methoden der Formfindung](Lesen%20-%20Exzerpte/Jormakka,%20Schürer,%20Kuhlmann%20-%20Methoden%20der%20Formfindung.md)
+- [Mareis - Entwerfen mit System](Lesen%20-%20Exzerpte/Mareis%20-%20Entwerfen%20mit%20System)
+	  [1 Namedropping in Claudia Mareis' Büchern](Lesen%20-%20Exzerpte/1%20Namedropping%20in%20Claudia%20Mareis'%20Büchern.md)
