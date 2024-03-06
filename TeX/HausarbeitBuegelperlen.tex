@@ -9,6 +9,7 @@
 \usepackage{ulem}
 \usepackage{comment}
 \usepackage[backend=biber,style=alphabetic,]{biblatex}
+% Bibliografie noch integrieren, nötige Dateien erstellen!
 
 \title{Kreativitätsspielzeug: rasterbasierte Spielzeuge zur Bilderzeugung und deren Hackability}
 \author{Camilla Schmider}
@@ -51,73 +52,414 @@ Als ausgebildete Jugend- und Heimerzieherin und angehende Designerin liegt einer
 
 Unter Rasterbasierten Spielzeugen zur Bilderzeugung verstehe ich Produktsysteme, bei denen auf Grundplatten mit Rasterartig angeordneten Erhöhungen oder Vertiefungen werden einzelne Bildpunkte angeordnet, die in ihrer Gesamtheit ein flächiges Bild erzeugen. Die Bildpunkte können auf unzählige Arten immer wieder neu kombiniert werden, was diese zu Spielzeugen macht und von klassischem Bastelmaterial unterscheidet.
 
-Mein Ausgangspunkt waren Bügelperlen, die aus verschiedensten Sichtweisen heraus als Kreativmaterial und und Spielzeug verstanden werden können. Die deutsche und englische Wikipedia listen sie in den beiden Kategorien "Kunststoffspielzeug" und "Handarbeit" \cite{wiki:de}, bzw. "Plastic toys" und "Craft materials" \cite{wiki:en}, aber auch gängige Definitionen eines Baukastens treffen. \cite{Leinweber}
+Mein Ausgangspunkt waren Bügelperlen, die aus verschiedensten Sichtweisen heraus als Kreativmaterial und und Spielzeug verstanden werden können. Die deutsche und englische Wikipedia listen sie in den beiden Kategorien "Kunststoffspielzeug" und "Handarbeit" 
+\cite{wiki:de} 
+, bzw. "Plastic toys" und "Craft materials" 
+\cite{wiki:en}
+, aber auch gängige Definitionen eines Baukastens treffen. 
+\cite{Leinweber}
 
-Bügelperlen machen kreatives Gestalten mit Farbe zum Gegenstand des Spiels, laden ein, sich mit der Ästhetik der erzeugten Bilder zu beschäftigen und bieten Anreize zu kreativer Problemlösung in der Auseinandersetzung mit den Regeln des Produktsystems. \begin{comment} ist das so? Wie kann ich diese These belegen? \end{comment}
-Weiterhin können sie selbst als Material zur kreativen Problemlösung im Spiel außerhalb der beschäftigung mit dem Produktsystem eingesetzt werden. (Beispiel 1: Im Spiel mit der Puppe stellt ein Kind fest, dass die Puppe dringend eine Perlenkette braucht. Da keine in geeigneter Größe vorhanden ist, fädelt das Kind schnell ein paar Bügelperlen auf einen Wollfaden und verknotet diesen zu einer kleinen Kette für die Puppe. Beispiel 2: Ein Kind spielt mit einer Holzeisenbahn und baut um diese herum phantasievolle  Landschaften aus Bauklötzen. in die Mitte dieser Eisenbahnlandschaft soll noch ein Ententeich, was mit den vorhandenen Bauklötzen nicht so überzeugend gelingen will. Spontan entscheidet sich das Kind, blaue und transparente Bügelperlen in eine flache Schale zu schütten und das als Teich zu interpretieren. Mit dem Ergebnis nur halb zufrieden, beschließt ein befreundetes Kind, verschiedene blaue Perlen wellenförmig auf einer runden Steckplatte anzuordnen, und mit einem beigen Rand zu versehen, bügelt das Ergebnis und überlässt diesen so entstandenen Teich dem anderen Kind für seine Landschaft.) \begin{comment} Gibt es knappere oder andere Formen der Erläuterung, was ich meine, außer Beispiele auszuformulieren? \end{comment}
+Bügelperlen machen kreatives Gestalten mit Farbe zum Gegenstand des Spiels, laden ein, sich mit der Ästhetik der erzeugten Bilder zu beschäftigen und bieten Anreize zu kreativer Problemlösung in der Auseinandersetzung mit den Regeln des Produktsystems. 
+% ist das so? Wie kann ich diese These belegen?
+Weiterhin können sie selbst als Material zur kreativen Problemlösung im Spiel außerhalb der beschäftigung mit dem Produktsystem eingesetzt werden. (Beispiel 1: Im Spiel mit der Puppe stellt ein Kind fest, dass die Puppe dringend eine Perlenkette braucht. Da keine in geeigneter Größe vorhanden ist, fädelt das Kind schnell ein paar Bügelperlen auf einen Wollfaden und verknotet diesen zu einer kleinen Kette für die Puppe. Beispiel 2: Ein Kind spielt mit einer Holzeisenbahn und baut um diese herum phantasievolle  Landschaften aus Bauklötzen. in die Mitte dieser Eisenbahnlandschaft soll noch ein Ententeich, was mit den vorhandenen Bauklötzen nicht so überzeugend gelingen will. Spontan entscheidet sich das Kind, blaue und transparente Bügelperlen in eine flache Schale zu schütten und das als Teich zu interpretieren. Mit dem Ergebnis nur halb zufrieden, beschließt ein befreundetes Kind, verschiedene blaue Perlen wellenförmig auf einer runden Steckplatte anzuordnen, und mit einem beigen Rand zu versehen, bügelt das Ergebnis und überlässt diesen so entstandenen Teich dem anderen Kind für seine Landschaft.) 
+% Gibt es knappere oder andere Formen der Erläuterung, was ich meine, außer Beispiele auszuformulieren?
 
 Ergänzend möchte ich die Klemmbausteinserie Lego\texttrademark Dots daneben stellen. Als Spielzeug ist es vergleichbar, da es ebenfalls einSystem ist, bei dem Bildpunkte in einem Raster angeordnet werden. Beides sind populäre Spielzeugsysteme mit einer über 50 jährigen Geschichte, mit einer breiten Produktpalette und vielen Sets und Erweiterungen die sich in der jeweiligen Handhabung und ihren Gestaltungsmöglichkeiten unterscheiden können.
 \sout{Im Hauptteil werde ich auf diese Unterschiede detailliert eingehen und gehe der Frage nach, welchen Einfluss diese Unterscheidungsmerkmale auf die Spielmöglichkeiten haben.}
 %notiz: Bügelperlen sind flach angeordnet, weil sie gebügelt werden sollen. Essentielle Banalität. :D
 
-Die Raster, die den beiden Spielzeugen zugrunde liegen sind nicht-sprachlich-formulierte Regeln. Hier zunächst als untergrund zur Befestigung und als Gestaltungshilfe im Sinne der Rhythmisierung und Strukturierung. (siehe auch \cite{formfindung})
+Die Raster, die den beiden Spielzeugen zugrunde liegen sind nicht-sprachlich-formulierte Regeln. Hier zunächst als untergrund zur Befestigung und als Gestaltungshilfe im Sinne der Rhythmisierung und Strukturierung. (siehe auch \cite{formfindung}
+)
 Diese REgeln können aber auch als Herausforderung betrachtet werden: Als Anreiz, Ergebnissoffen zu probieren, was innerhalb oder trotz der Regeln machbar ist. Als Test, wie Belastbar die Regeln sind. Oder um ein Ziel zu erreichen, das auf den ersten Blick unter strenger Einhaltung der Regeln so nicht ohne Weiteres erreicht werden kann. Ebenso kann die Herausforderung darin liegen, dass ungewohnte oder neue Verhaltensweisen erprobt werden müssen, weil die bisher genutzten Verhaltensweisen (z.B. mit einem Stift kringelig auf Papier kritzeln, um eine Wolke darzustellen) innerhalb des Spielzeugeigenen Regelsatzes nicht funktionieren. Damit werden diese Spielzeuge zu einem Lernmaterial, an dem nicht nur Bildkompositionen erprobt, sondern auch die Grenzen (s)eines Systems ausgelotet werden können.
 
 
-\iffalse
+\part{alte Gliederung - komplett überarbeiten}
 % alte Gliederung. Inhalte sind nicht komplett hinfällig, müssen aber neu sortiert und nochmal überarbeitet werden.
 
 \chapter{Begriffsklärung und Forschungsstand}
 
 	\section{Spielzeug}
 	Was ist Spielzeug? Anwendung und Stellenwert von Regeln im Zusammenhang mit Spielzeug
+		\subsubsection{Was ist Spielzeug?}
+
+Gegenstände, deren hauptzweck ist, bespielt zu werden. Sie werden üblicherweise für den gebrauch durch Kinder verschiedener alters- und entwicklungsstufen gestaltet, oder zumeist nach der eignung für jene gekennzeichnet.
+Spielzeug dient dem ausprobieren und austesten verschiedener Handlungsoptionen (seien sie sozial, konstruktiv oder körperlich) und dem erfahren bestimmter Konzepte und Gesetze (z.B. objektpermanenz oder )
+
+		\subsubsection{was ist spielen?}
+				(optional...)
+
+		\subsubsection{Regeln bei Spielzeug}
+Stichwörter/ Fragestellung: Einführung ins Thema/Anwendung und Stellenwert von Regeln im Zusammenhang mit Spielzeug
+
+Spielzeug wird zwar gelegentlich eine Anleitung beigelegt, aber Regeln oder gar Regelwerke sind üblicherweise nur bei Gesellschaftsspielen Teil des Spielzeugeigenen Spielkonzepts. 
+Üblicherweise werden Spielzeuge für Rollenspiele, Konstruktionsspiele oder zur Körpererfahrung auf die vielfältigsten Weisen genutzt. Der Benutzung sind dabei nur wenige Grenzen gestetzt: Beispielsweise die der Vorstellungskraft, die der Physik und die der gesellschaftlichen Erwünschtheit. Regeln, die Betreuungspersonen Kindern im Spiel mit dem Spielzeug vorgeben sind also auch sehr individuell und hängen oft von deren Einschätzung der Fähigkeiten des Kindes ab, oder von sozialen Rahmenfaktoren (lärmempfindiche Nachbarn, kulturelle Eigenheiten, eigene Lebenserfahrungen der Betreuungspersonen).  Allgemeine Regeln, die auf Packungen abgedruckt werden, oder in irgendwelchen Anweisungen von oder für Erziehungsinstitutionen (Leitfäden oder Dienstanweisungen von Bildungs- und Betreuungseinrichtungen, Ratgeber für Familien, \textit{Ratschläge}...) verbreitet werden, sind oft darauf ausgelegt, Verletzungsrisiken oder größeren Sachschaden zu Vermeiden. 
+Zu lesen sind dann so Sätze, wie: "Nicht geeignet für Kinder unter drei Jahren, enthält verschluckbare Kleinteile." oder "Dieses Puppenhaus muss für sicheres Spielen an einer Wand befestigt oder mit dem beiliegenden Kippschutz gesichert werden." (erfundenes Beispiel.) 
+
+Unbewusst kommen erfahrungsgemäß dennoch unzählige Regeln zur Anwendung: 
+Spielsachen werden nur für den vorgesehenen Zweck genutzt: Verkleidungssachen zum Rollenspiel, Bausteine zum Konstruieren, Sportgeräte für Bewegungsspiele. 
+Spielsachen werden nur im vermeintlich sozial erwünschten Rahmen genutzt. Männliche Kinder lehnen Rosa Plüscheinhörner potentiell als Geschenk ab oder machen sich darüber lustig und ignorieren die Kindernähmaschine, die für alle offen zugänglich in der Bastelecke steht, wenn sie sich selbst eine Aufgabe dort suchen. Weibliche Kinder schauen dafür beim Ballspielen oder Raufen häufig nur zu und verschenken eine Wundertütetn-Spiderman-Actionfigur eher, als sie ganz selbstverständlich in die Barbiesammlung zu integrieren. Kinder aus Akademikerhaushalten suchen sich andere Themen und Narrative als Kinder aus traditionellen Arbeiterhaushalten. 
+Spielsachen gehen kaputt, wenn sie "falsch" behandelt werden. Konstruktionen brechen zusammen, wenn die Statik den gesetzen der Physik widerspricht, oder Murmeln rollen einfach nicht weiter, wenn die Murmelbahn keine Neigung hat. Andere Kinder spielen einfach nicht mehr mit, wenn die Geschichte mit dem Playmobilfiguren auf Filly-Pferden zu absurd wird, oder wenn die "Sandkasteneisdiele" nur eklige Eissorten anbietet. 
+
+Manche dieser Regeln sind sehr spielzeugspezifisch, besonders, wenn sie physikalischer Natur sind. Man kann Bausteine und Kuscheltiere zwar auch kombinieren, aber es wird schwierig und erfordert einiges an Kreativität und vermutlich auch zusätzliches und/oder unübliches Material, um eine stabile Verbindung herzustellen.
+
+Diese Form der Kreativität ist durchaus interessant, im Rahmen dieser Arbeit, steht aber nicht gänzlich im Fokus. Problemlösung, kreative Problemlösung ist ein Teil dessen, was ich erforsche, ein anderer Teil ist das künstliche erzeugen von Problemen, die gelöst werden, oder eben auch das forschende Kreativsein. Das finden von "neuem", dass zuvor noch nicht da war. Zumindest nicht im Bewusstsein des Spielenden, vielleicht aber auch noch nicht in der Weise in der materiellen Welt. 
+
+\subsection{(2.1.2 Kreativität)}
+		\begin{itemize}
+			\item was ist kreativität? (einleidende Sätze, eigenes Kreativitätsverständnis)
+		\end{itemize}
+
+Um diese Frage kreisen etliche veröffentlichungen, sodass ich sie nicht tiefer erörtern möchte. 
+Der Kreativitätsbegriff, den ich für diese Arbeit verwende orientiert sich an ??? (Reckwitz? dessen Grundlagen?).
+Kreativität als das Erschaffen von etwas neuem, in den verschiedensten facetten und varianten.
+
+
+Wenn ich aktuell einen Spielzeugladen betrete, oder die Kinderabteilung einer beliebigen Einzelhandelskettenfiliale, sehe ich, dass "Kreativität" überwiegend bei den Bastelsachen verortet wird und selten bei anderen Spielzeugen. Lego® wirbt zwar auf der Verpackung eines Erlebnispark-Duplo-Sets neben "Fine Motor Skills" auch mit "Imagination \& creativity" bzw. in der deutschen Übersetzung mit "Fantasie und Kreativität", aber begründet oder näher ausgeführt wird das auch nicht.
+Auch fällt auf, dass Produkte, die sich "kreativen Beschäftigungen" widmen, häufiger mit Pastellfarben und Magentatönen aufwarten, als mit primärfarben, und die Verpackungen sowie die Werbung für diese Produkte häufiger mit weiblich gelesenen Kindern bedruckt sind, als mit männlich gelesenen oder Kindern, denen kein Geschlecht offensichtlich zugeordnet wird.
+
+Dieses Verständnis vor Kreativität teile ich explizit nicht, kann aber auch nicht bestreiten, dass es mich in meiner Kindheit und Jugend auf die eine oder andere Weise geprägt und beeinflusst hat.
 	
-	\section{Forschungsstand zu den untersuchten Spielzeugsystemen und in dieser Arbeit genutzte Begriffe rund um diese}
-		\subsection{Bügelperlen und anderes rasterbasiertes Kreativspielzeug in der Forschung}
+	\section{2.2 Forschungsstand zu den untersuchten Spielzeugsystemen und in dieser Arbeit genutzte Begriffe rund um diese}
+		\begin{itemize}
+			\item was ist mit dem Ausdruck "rasterbasiertes Kreativspielzeug" gemeint?
+			\item Was für Fachtermini existieren bereits zu den beiden Spielzeugsystemen?
+			\item Wurde überhaupt einmal rund um Bügelperlen geforscht?
+		\end{itemize}
+
+Der Begriff des Rasterbasierten Kreativspielzeugs wird (für mich) Notwendig, weil Bügelperlen im Einzelhandel bevorzugt als "Bastelmaterial" zwischen Handarbeitssets und Schreibwaren eingeordnet werden, und Lego Dots unter der Dachmarke Lego dem Konstruktionsspielzeug zugeordnet werden. Um die Vergleichbarkeit der beiden Spielzeugsysteme sprachlich Sichtbar zu machen, gruppiere ich sie unter dem bereits genannten Begriff des Rasterbasierten Kreativspielzeugs. In die Selbe Gruppe fallen auch andere Spielzeugsysteme, die teils als Bastelmaterial, teils als Konstruktionsspielzeug vermarktet werden. Zum Beispiel "Diamond-Painting (oder so)", eine Art Malen-nach-Zahlen mit winzigen Strasssteinchen, Steck- und Mosaik-Spiele.
+
+		\subsection{ 2.2.1 Bügelperlen und anderes rasterbasiertes Kreativspielzeug in der Forschung}
 		ein scheinbar unerforschtes Gebiet.
-		\subsection{Klemmbausteine in Forschung und Fan-Fachkultur}
-		Ausstellungskatalog `Baukästen', Lego-Fanblogs?
-
-	\section{Kreativitätsbegriff und Kreativitätsdiskurs}
-		\subsection{Kreativität nach Reckwitz}
-		u.A. Reckwitz ``Design im Kreativdispositiv''
-		\subsection{Historische Einordnung der Entstehungsgeschichte von Bügelperlen und Klemmbausteinen}
-		u.a. Mareis ``Entwerfen mit System''
-		\subsection{pädagogischer Exkurs: Kreativitätsentwicklung im (Kinder-) Spiel}
-		u.A. Winnicott "vom Spiel zur Kreativität"
+		\subsection{2.2.2 Klemmbausteine in Forschung und Fan-Fachkultur}
+		\begin{itemize}
+			\item Ausstellungskatalog ‘Baukästen’
+			\item Lego-Fanblogs? -> Fanbücher? -> HQ-Bib?
+			\item Was wurde bereits zum Thema Lego geforscht? Ist das Konzept der Dots (und vergleichbarer Legoserien) bereits wissenschaftlich aufgegriffen worden?
+		\end{itemize}
 
 
+	\section{2.3 Kreativitätsbegriff und Kreativitätsdiskurs}
+		\subsection{2.3.1 Kreativität nach Reckwitz}
+			Zusammenfassung der relevanten Teile aus Reckwitz “Design im Kreativdispositiv”
 
-\chapter{Erforschen durch Selbstbeobachtung und Vergleich}
-	\section{Methodenwahl}
+			\subsubsection{Regime des neuen}
+
+Reckwitz gliedert "das neue" in drei verschiedene Typen oder Stufen. Er benennt außerdem dre verschiedene "Bedeutungen". 
+Zum einen die phänomenale Bedeutung des Anderen im Unterschied zum Gleichen - wobei ich vergessen oder nicht begriffen habe, wie Reckwitz das von der nachfolgenden Bedeutung abgrenzt.
+Die Soziale Bedeutung, wonach "neues" die Abweichung im Unterschied zu, Normalen und normativ erwarteten ist.
+und zuletzt die Zeitliche Bedeutung, dass das neue von altem unterscheidet, das hinter sich gelassen werden sollte.
+
+Also ich denke, es geht einmal darum, dass das phänomenologische neue, im vergleich zum sozialen/normativen neuen, auch etwas altes, vertrautes sein kann, dass nur einfach aus der Mode gekommen war und unter dem Eindruck sich ähnelnder, jüngerer \$Dinge dann als frisch und neu empfunden wird, wenn sie in deren Masse - an deren Anblick man sich bereits gewöhnt hat - wieder vereinzelt auftauchen.
+In diesem Beispiel wird das alte außerdem zum neuen, wenn das neue als zunehmend unerwünscht oder unattraktiv oder zumindest als langweilig wargenommen wird, und überwunden werden will.
+Im zusammenhang mit Kreativspielzeug ist "neues" nicht irrelevant. Im Spiel wird immer wieder neues ausprobiert. Neues im Unterschied zu bekanntem, erprobten und gelegentlich auch im unterschied zum konventionellen. An dieser Stelle wird es dann für mich spannend. Kann ein Spielzeug konventionen beinhalten, die gebrochen werden wollen? und wenn das brechen einer konvention eine konvention ist - wird diese konvention dann gebrochen, in dem ich sie nicht breche? und kann ich sie dann überhaupt nicht-brechen?
+Reckwitz gliedert das neue weiterhin in drei Idealtypische Strukturierungsformen, die einigermaßen aufeinander Aufbauen. 
+
+		\subsection{2.3.2 Historische Einordnung der Entstehungsgeschichte von Bügelperlen und Klemmbausteinen}
+
+			und Kreativitätsverständnis im theoretischen Diskurs der damaligen Zeit -> Bezug auf Mareis' Arbeit.
+
+		\subsection{pädagogischer Exkurs: Kreativitätsentwicklung im (Kinder-) Spiel / Spielzeug - Lernen - Kreativität}
+
+			Winnicott?
+			Aus Mehringer und Wahrburg:
+			Zoels!
+			Schmidt-Ruhland?
+			andere?
+
+
+
+\chapter{3. Erforschen durch Selbstbeobachtung und Vergleich}
+	Im Hauptteil werde ich:
+	\begin{itemize}
+		\item Meine Methodenwahl begründen und die Methodik beschreiben,
+		\item die Auswertung der Selbstbeobachtung vorstellen, gegliedert in 
+		\begin{itemize}
+			\item Regeln
+			\item Herausforderungen
+			\item Regelbrüche
+		\end{itemize}
+		\item Vergleiche zwischen allem möglichen ziehen.
+	\end{itemize}
+
+	\section{3.1 Methodenwahl}
 	Warum Selbstbeobachtung? Wo sind die Fallstricke? Warum der Vergleich? 
-		\subsection{Vergleich zwischen Spielzeugsystemen}
-		Wie unterscheiden sich LegoDots von Bügelperlen in Spielmöglichkeiten, Gestaltung und Impulsen zum Regelbruch?
-		\subsection{Vergleich zwischen Regelwerken/Konventionen und dem realen (kreativen) Spiel}
-		um einen Regelbruch festzustellen, müssen erst Regeln und Konventionen definiert werden.
-		\subsection{Vergleich zwischen dem spielerischen Umgang mit den Spielzeugsystemen und dem Kreativitätskonzept nach Reckwitz}
-		\sout{eventuell auch im vagen Vergleich zum üblichen Umgang mit Stift und Karopapier oder einem vermeintlich völlig unkreativen Spielzeug. (welches könnte das sein?)}
-	\section{Aufbau der Selbstbeobachtung}
-Wie habe ich die Selbstbeobachtung strukturiert, die Beobachtungssituation gestaltet und alles dokumentiert?
+		\subsection{3.1.1 Vergleich zwischen Spielzeugsystemen}
+			Wie unterscheiden sich LegoDots von Bügelperlen 
+			\begin{itemize}
+				\item in Spielmöglichkeiten, (was untersuche ich und wie? noch keine ergebnisse oder erkenntnisse!)
+				\item Gestaltung und (was untersuche ich und wie?)
+				\item Impulsen zum Regelbruch? (was untersuche ich und wie?)
+			\end{itemize}
+
+				\subsubsection{1a - Vorannahmen unterschiedliche Spielmöglichkeiten}
+Part 1: Wie unterscheiden sich Dots von Bügelperlen IN IHREN SPIELMÖGLICHKEITEN? (keine Erkenntnisse - nur was untersuche ich und wie? ggf. vorannahmen)
+
+Ich starte mit Vorannahmen, damit diese einmal ausformuliert wurden, bevor es keine Vorannahmen mehr sind: Ich nehme an, dass sich Dots und Bügelperlen in ihrem Umgang mit Räumlichkeit leicht bis mittelstark unterscheiden. Und im Umgang mit den Bildpunkten innerhalb des Systems und der Systemeigenen Regeln. Das eine System ist Vollpixelartig gedacht, das andere eher als Tile-System. Mit Vollpixel meine ich, dass ein Bildpunkt eine Vollfarbe oder eine Vollfarbe mit zusatzeigenschaft abbildet (Rot oder Rot mit Glitzer, Blau oder Blau-transparent, Grün oder Weiß-Grün-Gestreift...) und ansonsten nicht weiter ausdifferenziert wird. Unter einem Tile-System verstehe ich dagegen ein System, bei dem ein Bildpunkt nicht nur eine Farbe trägt - ggf. mit zusatzeigenschaften - sondern weitere Inhalte, die einen Einfluss auf die Ausrichtung des Bildpunkts haben, dessen eigenschaften beim gestalterischen Spiel mit-gestaltet, mitgenutzt werden (können). Also dass es einen unterschied macht, ob ich einen einfarbigen, kreisrunden Bildpunkt habe, der innerhalb eines Rasters platziert wird, oder ein Quadrat mit einem aufgedruckten dreieck. Als spielende Person kann ich entscheiden, dass alle dreiecke mit der Spitze in eine bestimmte Richtung im Raster platziert werden können, oder dass die dreiecksspitzen immer auf die nächsten dreiecke hindeuten, oder dass die Quadrate diagonal und gegeneinander versetzt im Raster angeordnet werden, anstatt Kante an Kante.
+
+In Sachen Vorannahmen zum unterschiedlichen räumlichen Umgang in den Spielmöglichkeiten der verschiedenen Systeme: 
+Ich nehme an, dass Bügelperlen primär als flächiges und sekundär als lineares  Bilderzeugungssystem konzipiert sind, weil sie primär als flächiges System verkauft werden und ihrer Fädelperlenartigen Form zum Linearen und multilinearen Gestalten einladen. mehrschichtige aufbauten und aufstell-elemente erweitern die Fläche in die zweieinhalbste bis Dritte dimension, ohne aber ihren Flächencharakter aufzugeben. 
+
+Dots sind ein stark Lego-Basiertes System, im Grunde auch nur eine Teil-Produktpalette aus dem großen Sortiment, dass dazu geeignet ist, flächige Bilder zu erzeugen und mit großer Farbvielfalt und speziellen aufdrucken zum "eigenen" system erweitert wurde. Hier ist das Kernsystem also bereits räumlich angelegt, und wurde in ihrem Kreationsanspruch auf die Zweite Dimension runtereduziert. Räumliche Kreationen sind möglich und beschränken sich nicht nur auf mehrschichtigkeit, der Bildaufbau wird dennoch eher flächig verstanden.  Nach meiner Annahme jedenfalls.	
+
+				\subsubsection{2a - Methodenwahl Vergleich der Gestaltung}
+
+Fragestellung: Wie unterscheiden sich Dots von Bügelperlen IN IHRER GESTALTUNG? 
+Hier: WAS untersuche ich und WIE? Keine erkenntnisse, Ergebnisse oder Vorannahmen!!!
+
+Die formellen Gestaltungsmerkmale werden durch Betrachtung der einzelnen Elemente, ihrer Dimensionen, bzw. Außenmaße, Formen, Farben und Materialien zunächst beschrieben und innerhalb des jeweiligen Spielsystems eingeordnet. Im Vergleich der Spielsysteme werden dann Elemente verglichen, die eine vergleichbare Rolle einnehmen, Verglichen werden soll zum einen, wie die Form die Handhabung beinflusst oder steuert, zum anderen die Rolle von Farben und Farbigkeit der jeweilign Elemente oder Elementklasse (neuer Begriff. definieren?).	
+
+				\subsubsection{3b? - Vorannahmen Regelbrüche}
+
+Methodenwahl Spielzeugvergleich - Vorannahmen zu unterschieden zwischen Dots und Bügelperlen in ihren Impulsen zum Regelbruch.
+
+Ich nehme an, dass das Bügelperlen-Spielsystem durch seine große auswahl an Rastervorgaben weniger zum "Regelbruch" einlädt, weil vorab schon so viele Entscheidungen getroffen werden. und mit jeder Entscheidung, die man erstmal trifft, sinkt die Wahrscheinlichkeit, vom bereits eingeschlagenen Weg nochmal abzuweichen (Pfadabhängigkeit nachrecherchieren?)
+Also wenn ich mich schon für die Rasterplatte im Hündchendesign entschieden habe, werde ich vermutlich auch eher versuchen, ein Hündchen ab- oder nachzubilden, als einen Stegosaurus oder wilden Farbklecks daraus zu machen.
+
+Die Verfügbarkeit verschiedener Platten grenst also meine Wahlmöglichkeiten schon mal ein. Die Rasterplatten bei Lego dagegen unterscheiden sich vor allem in ihren Außenabmessungen, nicht aber in der Anordnung der Rasterpunkte. Hier kann ich mir vorstellen, dass der Anreiz, aus dem Raster auszubrechen größer ist, dafür aber auch schon generell mehr Freiheiten und Gestaltungsspielräume bestehen. 
+
+Ich nehme an, dass bei den Dots das rebellieren gegen die Rastereinteilung ein eher vorübergehendes Phänomen ist, weil es in Sachen Gestaltungsmöglichkeiten eher in Sackgassen führt, als neue Welten zu erschließen.
+
+Sollte bei den Bügelperlen jedoch irgendwann ein Gewöhnungseffekt einsetzen, der die vorgegebenen Formen langweilig werden lässt, bin ich mir sicher, dass der Reiz größer wird, die Raster umzunutzen oder deren Möglichkeiten auszureizen - oder die Raster ganz zu verlassen, und andere möglichkeiten zu erkunden.
+
+Es fehlt noch ein kurzer Abschnitt zum nicht-rasterbasierten Regelbruch:
+Ich nehme an, dass es mich vor meinem Erfahrungshorizont vor allem Reizen wird, die zweite Dimension zu verlassen. Ich vermute, dass mir das bei den Lego Dots besser gelingen wird, als bei den Bügelperlen, bei denen ich annehme, dass ich die dreidimensionalität vor allem durch schichten oder verschränken der Ebenen erreiche.
+
+		\subsection{3.1.2 Vergleich zwischen Regelwerken/Konventionen und dem realen (kreativen) Spiel}
+			\begin{itemize}
+				\item um einen Regelbruch festzustellen, müssen erst Regeln und Konventionen definiert werden. 
+				\item iteratives Vorgehen beim Festhalten der Regeln
+			\end{itemize}
+
+Stichpunkt/Fragestellung: iteratives Vorgehen beim festhalten der Regeln/wie ist methodisch sichergestellt, dass das praktische Spiel theoretische Regelannahmen nicht verfälscht?
+
+Zwischen Konventionen und dem praktischen Spiel bestehen enge wechselwirkungen. Beim spielen stößt man an physikalische(/statische) oder physiologische Grenzen der Machbarkeit und an Grenzen der Vorstellungskraft. Normen, Konventionen und Erfahrungen schreiben quasi die Regeln. Und zugleich werden sie im Spiel doch immer wieder auf ihre Gültigkeit ausgetestet. Das Spiel wird also gleichzeitig durch die "Regeln" geleitet, wie das Spiel selbst auch die Regeln erkundet oder gar schafft. Zum Beispiel, wenn ich mir selbt die Vorgabe auferlege, nur eine bestimmte Farbe oder Farbpalette zu benutzen.
+
+Um zu vermeiden, dass konkrete, praktische Spielerfahrungen des Moments in dieser Arbeit als allgemeingültige Regeln festgehalten werden, habe ich mich für eine iterative/schrittweise regelerfassung/erkundung entschieden. 
+Zuerst erschließe ich die Regeln durch reines betrachten der einzelnen Teile des Spielzeugsystems, bevor ich dann im spielerisch-explorativen Umgang mit den Systemteilen versuche, weitere Regeln zu formulieren, regeln zu erweitern, einzuschränken oder zu verwerfen. 
+
+Anschließend folgen drei Runden Selbstbeobachtung bei der ich mit den Spielzeugsystemen Bilder erzeuge (was ich selbst als kern-spielziel betrachte). Bei dieser Tätigkeit prüfe ich zugleich die vorher festgestellten Regeln auf Vollständigkeit und tauglichkeit, reflektiere konventionen in meinem Spiel und in den Regeln, und stelle weitere Regeln auf. Diese überlegungen und überarbeitungen werden separat zur ersten Regelversion festgehalten.
+
+Jeder Regelbruch im praktischen Spiel bedeutet gewissermaßen auch eine Regelerweiterung in der Theorie, da es kein festes, allgemein anerkanntes, schriftliches Regelwerk gibt.
+
+Ein solches Regelwerk versuche ich nun provisorisch zu erstellen, um damit arbeiten zu können.
+Dazu werde ich nach der Forschungsphase die niederschriften und notizen selbst noch einmal analysieren und meine erkenntnisse daraus festhalten.
+
+		\subsection{3.1.3 Vergleich zwischen dem spielerischen Umgang mit den Spielzeugsystemen und dem Kreativitätskonzept nach Reckwitz oder Winicott oder sonstwem}
 
 
-\chapter{Spielregeln und Regelbrüche, sowie deren unterstützende Gestaltungsmerkmale}
+
+	\section{3.2 Aufbau der Selbstbeobachtung}
+	\begin{itemize}
+		\item Wie habe ich die Selbstbeobachtung strukturiert?
+		\item Wie habe ich die Beobachtungssituation gestaltet?
+		\item Wie habe ich alles dokumentiert?
+		\item Wie habe ich die Dokumentation aufgearbeitet?
+	\end{itemize}
+
+		\subsection{3.2.1 Verlauf und Strukturierung der Selbstbeobachtung}
+		\begin{itemize}
+			\item Phasenaufbau/linearer verlauf allgemein 
+			\item Regeldefinitionsphase
+			\item Motivlose Bilderzeugung und experimentelle Annäherung an den Umgang mit dem Material
+			\item Motive und Herausforderungen 
+			\item Verlassen der Zweidimensionalität und andere \textit{Erweiterungen} des Regelwerks
+		\end{itemize}
+
+				\subsubsection{Phasenaufbau/linearer Verlauf}
+
+Wie gehe ich vor? - mit welcher Begründung?
+
+Für die Selbstbeobachtung habe ich einen phasenartigen, aufeinander aufbauenden und linearen Verlauf entwickelt, in dem ich mich den beiden Spielzeugsystemen annähere.
+Als erwachsene Person die mit beiden Systemen bereits seit der Kindheit erfahrungen gemacht/gesammelt hat, kann ich mich nicht so unefangen nähern, wie ein Kind, dass die Sachen das erste mal in den Händen hält.
+Um dennoch meinen Vorerfahrungen und Vorannahmen nicht zu viel Raum zu geben, habe ich mich entschieden, mich zunächst mit der Frage nach den "Spielregeln" im Kopf über betrachten und ausprobieren an das "Bild erzeugen" heranzutasten (Regelgeneration/-exploration) und [später/fließend] über Bilderzeugung mit zunehmendem Komplexitätsgrad die selben Regeln in Frage zu stellen. 
+Um zu beobachten, wo ich Regeln "erweitere" oder "breche", formuliere ich vor den ersten Motiv-artigen Bildern Regeln, die ich in der zweiten Phase (Regel-Anwendung?-Dogma-phase?) so streng und wörtlich einhalte, wie mir möglich ist. Dabei dokumentiere ich "schlupflöcher" innerhalb der Regelwerke und neu bewusst werdende selbstbeschränkungen, die nicht explizit teil des Regelwerks oder der gestellten Bilderzeugungsaufgabe sind. 
+
+In einer dritten Phase formuliere ich Herausforderungen, die sich in der Bilderzeugung bis dahin ergeben haben oder mir zuvor bereits in den Sinn kamen, und versuche die Vorhandenen Regeln bis hin zum Regelbruch zu dehnen (Regel-Exploitation) und darüber hinaus zu erkunden, was für möglichkeiten mir die Spielzeugsysteme durch ihre Materialität und ihre Form noch bieten können.
+Dafür habe ich dann kein spezielles Vorgehen mehr gewählt, sondern beobachte mich einfach nur noch selbst im Tun, um "Exploits" nicht unbeabsichtigt durch Rahmenregeln zu verhindern.
+
+		\subsection{3.2.2 Gestaltung der Selbstbeobachtungssituation}
+		\begin{enumerate}
+			\item Mit welchen Rahmenbedingungen gehe ich wie um?
+    Welche Gestaltungsmöglichkeiten nutze ich?
+    
+			\item Welche Entscheidungen habe ich getroffen, im Umgang mit:
+			\begin{itemize}
+				\item Raum/Zeit
+				\item Bildausschnitt/Aufnahmetechnik(en) (Foto/Video)
+				\item Ton/Text/Sprache
+			\end{itemize}
+    			Wie begründe ich diese Entscheidungen?
+    		\end{enumerate}
+
+Methodenbeschreibung Selbstbeobachtung
+
+Um nichts wesentliches zu Verpassen waren am selbstbeobachtungsort zwei Kameras aufgebaut. Eine in Top-Down-Perspektive die die Tischoberfläche und alle Bewegungen in der Fläche aufnimmt. Eine zweite, die mich selbst und einen kleinen Bereich des Tisches Frontal ins Bild fasst. Mit ihr werden vertikalbewegungen, mein Oberkörper mit Armen und mein Gesichtsausdruck aufgenommen. Beide Kamerabilder habe ich leicht überlagert (um die Datenmenge etwas zu reduzieren) in einer einzige Aufnahme arrangiert, um beide Bilder bei Bedarf synchron und in bezug zueinander analysieren zu können.
+
+Auf Tonaufnahme habe ich verzichtet, weil ich wärend des Videos nicht vorhatte zu sprechen, um meine Gedanken festzuhalten, sondern diese handschriftlich zu papier bringen wollte um damit gleich weiter arbeiten zu können. Sollte in Videos dennoch Ton sein, dannn ist das die Aufnahme der Musik, die zu der Zeit lief, sollte ich welche gehört haben. Wenn zu sehen ist, das ich spreche, dann handelt es sich (wie man mutmaßlich sehen kann) um Unterbrechungen der Selbstbeobachtung durch außenstehende und damit um private gespräche. In solchen fällen habe ich die Aufnahme nicht angehalten, um auch die Art und dauer der Unterbrechung zu dokumentieren, werde die Videos an entsprechender Stelle aber schwärzen.
+
+Parallel zur handschriftlichen Dokumentation meiner Gedanken und der bewegtbilddokumentation meiner Handlungen habe ich mich zu verschiedenen Zeitpunkten dazu entschieden, Zwischenschritte, -zustände oder -ergebnisse fotografisch festzuhalten. Diese Momentaufnahmen dokumentieren vornehmlich statische Dinge und die verwendeten Materialien. 
+
+Ich habe mich bemüht, das selbstbeobachtungsset weitgehend störungs- und  ablenkungsfrei zu gestalten, und dabei auch möglichst wenig ablenkendes im Sichtfeld zu haben. Es gab keine Zeitliche Einschränkung, nur relativ eng umrissene Arbeitsaufträge für die jeweiligen Sessions. Nach einer Session spät abends und unter alkoholeinfluss habe ich zudem die Bedingung festgelegt, dass ich wach sein und für die geplanten Sessions nicht unter dem einfluss von Drogen stehen soll, die Wahrnehmung, Motorik oder Ausdruck beeinflussen.
+
+-> 
+Wie begründe ich diese Entscheidungen?
+
+		\subsection{3.2.3 Dokumentationsmethoden}
+			Welche Entscheidungen habe ich getroffen, im Umgang mit:
+			\begin{itemize}
+				\item Raum/Zeit
+				\item Bildausschnitt/Aufnahmetechnik(en) (Foto/Video)
+				\item Ton/Text/Sprache
+			\end{itemize}
+    			Wie begründe ich diese Entscheidungen?
+
+		\subsection{3.2.4 Auswertung der Dokumentation}
+			wie gehe ich vor und zu welchem Zweck?
+			\begin{itemize}
+				\item Handschriftliche Notizen (hier noch als Dokumentation) digital erfassen und wärenddessen neu Strukturieren als erste Reflexionsphase
+				\item Auswerten des Videomaterials nach Abschluss der Praktischen Forschungsphasen
+				\begin{itemize}
+					\item schnellsichtung und schriftliche reflexion der gedanken/erlebnisse dabei.
+					\item transskription des Bildgeschehens mit Zeitangaben. 
+					\item statistische Auswertung des Anteils von Notation/Dokumentation zu \textit{Nachdenken} zu aktiver Beschäftigung mit den Spielsachen?
+					\item Schlüsselmomente identifizieren.
+				\end{itemize}
+			\end{itemize}
+
+Wie gehe ich vor und zu welchem Zweck?
+
+Die Auswertung der Selbstbeobachtung findet in zwei voneinander weitgehend unabhängigen Phasen statt. Zeitnah an die jeweiligen Beobachtungssessions tippe ich meine Handschriftlichen notizen aus den Sessions ab und formuliere die jeweiligen Gedanken dabei etwas ausführlicher oder bringe sie besser auf den Punkt, wenn ich denke, dass ich sie andernfalls später nicht mehr nachvollziehen kann. Die Handschriftlichen notizen bleiben daraufhin bis zur zweiten auswertungsphase archiviert. 
+
+Aus den digitalen Notizen werden nun in mehreren Etappen Kondensate gebildet, die einen Einfluss auf die nachfolgenden Praxisforschungsphasen haben. Diesen Einfluss werde ich durch bezugnahme auf die jeweiligen Kondensate so gut es geht transparent machen.
+
+
+Als Kondensate sind vorgesehen: Jeweils 
+\begin{itemize}
+	\item eine Beschreibung der Spielzeuge und systematische Gruppierung ihrer Komponenten,
+	\item ein erstes ausführliches Regelwelk für beide Spielzeigsysteme,
+	\item systeminhärente Herausforderungen für die Bilderzeugung beider Spielzeugsysteme
+	\item generalisierte Optionen, die Grenzen der Systeme zu verlassen oder zu sprengen.
+\end{itemize}
+
+In der zweiten Auswertungsphase schaue ich mir vor allem die Videoaufnahmen genauer an und Werte sie aus. In der zweiten Phase fokussiere ich mich auf die Auswertung der Videoaufnahmen.
+
+Jedes Video wird zunächst in 1,5-Facher geschwindigkeit schnellgesichtet, dabei und danach notiere ich mir gedanken und reflektiere die Erlebnisse der jeweiligen Forschungsaufgabe nach einem noch festzulegenden Kurzschema.
+
+Anschließend beschreibe ich in einer zweiten sichtung das Geschehen mit genauen Zeitangaben und identifiziere Schlüsselmomente daraus.
+Aus diesen Angaben generiere ich am Ende eine kleine Statistik, wie oft sich bestimmte tätigkeiten wiederholt haben, oder wieviel Zeit ausschließlich mit "betrachten und nachdenken"  oder dem Dokumentieren und Notizen machen gefüllt ist.
+
+
+
+\chapter{4. Spielregeln und Regelbrüche, sowie deren unterstützende Gestaltungsmerkmale}
 Hier fasse ich meine Beobachtungen zusammen: Im Umgang mit den Produkten und durch die Selbstbeobachtung identifizierte Regeln und Konventionen, wahrgenommene Impulse und Versuche, die festgestellten Regeln zu erweitern, umgehen oder brechen.
+
+	\section{4.1 Regeln und Konventionen}
+	\begin{itemize}
+		\item gesamtes Regelwerk in letzter (oder für den Folgeteil relevanter) Iteration   
+  (Die Iterationen selbst befinden sich im Anhang)
+		\item Regeln sortiert nach "Typ" (die sich zum Teil aus den Iterationsstufen ergeben)
+		\begin{itemize}
+			\item Regeln (und Konventionen), die sich (hauptsächlich) aus der Gestaltung der jeweiligen Teile/Systeme ergeben -> Funktionelle Regeln?
+			\item (Spielsystemtypische) Konventionen und angenommene Regeln -> soziale Erwünschtheit?
+			\item Regeln, die sich (erst) aus dem "bestimmungsgemäßen" Umgang mit den Spielsystemen ergeben. -> Beabsichtigter und zugleich unintendierter Regelbruch ist hier schwierig, ohne das Spielzeug zu zerstören.
+		\end{itemize}
+	\end{itemize}
+
+Stichpunkt/Fragestellung: Regelwerk Bügelperlen in aktueller Iterationsstufe/Welchen Regeln unterliegt das Spiel mit Bügelperlen?
+
+Aufgabenstellung für jetzt: Formulieren der 2. Version der Spielregeln, die die Regeln aus Forschungspunkt 3 und 5 vereint.
+
+			\subsection{Die Grundregeln:}
+
+1. (X) Eine Spielsession hat üblicherweise das Ziel, ein Bild zu erzeugen. Alternatives Ziel kann auch sein, die Gestaltungsmöglichkeiten oder bestimmte Anordnungskonzepte zu erproben.
+
+
+2. (I) Perlen sollen/wollen in jeder Session in irgendeiner Form arrangiert werden. Verschiedene Vorgehensweisen ermöglichen die Anordnung der farbigen Perlen in lose Konglomerate, Flächen oder Reihen, und ermöglichen damit die Erzeugung von Mustern, Farbarrangements oder Bildern. 
+
+3. (II) Die Platzierung, Ausrichtung und Positionierung der einzelnen Perlen kann je nach gewählter Form des Arrangements oder Gestaltungsziel verschieden erfolgen. Dabei gibt es für jede Form bestimmte Konventionen, die sich aus der Form der verwendeten Teile und dem Gestaltungsziel ergeben. 
+
+5. (Y) Der Einsatz von Farben kann selbstgewählten Regeln und/oder Konventionen Folgen, wie zum Beispiel einer festgelegten Farbfolge, oder dem möglichst realitätsnahen Abbilden eines Gegenstands.
+
+6. (IV) Motive können auf verschiedene Weise vorbereitet werden. Das Ändern der Motive oder Anordnungen ist jederzeit möglich, wird jedoch mit zunehmender Zahl der bereits platzierten Perlen auch zunehmend schwieriger oder umständlicher. 
+
+7. (V) Bilder und Arbeitsergebnisse können durch versehen oder Absicht zerstört werden. Dies kann das Ende einer Spielsession bedeuten, wenn keine Absicht (mehr) besteht, mit einem gleichen oder vergleichbaren Arrangement neu zu beginnen. 
+
+8. (III) Generierte/erstellte Motive können nach Wunsch in einem bestimmten Zustand fixiert werden. Flache Anordnungen durch Verschmelzung durch Bügeln, lineare Anordnungen durch Verknoten der Perlschnur oder anbringen von Quetschperlen auf selbiger, räumliche Anordnungen durch verkleben oder eingießen. Änderungen des Motivs oder der Anordnung der Perlen sind dann nicht mehr ohne weiteres möglich, Ergänzungen unter Umständen schon. Um das Endergebnis stabil zu bekommen, müssen die Dimensionen der Arrangements beachtet und sinnvoll gewählt sein. Dies beendet üblicherweise ebenfalls eine Spielsession. 
+
+9. Auf eine Spielsession kann direkt eine weitere folgen, oder es müssen früher oder später Nachbereitungsmaßnahmen eingeleitet werden. Dazu gehören Aufräumen und Verstauen des Spielzeugs, eventuell das Reinigen und Verstauen des Bügeleisens und falls Vorhanden das Präsentieren/zur Schau stellen des fixierten Ergebnisses. 
+
+		\subsection{Detailregeln}
+			\subsubsection{erstformulierung - zweiter Anlauf, diesmal MIT Cryptpad}
+
+Grundregel 1 bezieht sich auf das Spielziel. Auch wenn ein Konstruktionsspiel im Gegensatz zu einem Brettspiel nicht zwingend ein vorher festgelegtes Spielziel hat, dessen erreichung Angestrebt wird, hat es dennoch mindestens die Exploration als Selbstzweck zum Ziel. <- Hirnquark zum Einstieg.
+
+Also: Das Spielziel, ein Bild zu erzeugen oder Möglichkeiten und Konzepte zu erproben, erfordert vom spielenden Wesen eine Idee, wie mit Farben, Formen, Wiederholungen oder konkreten Motiven in der Spielsession umgegangen werden soll. 
+Zum Beispiel kann eine kleinere Farbpalette festgelegt werden, die durch wiederholungen in bestimmtem Muster ein Mandla ergeben. Oder versucht werden, eine eigene oder fremde Zeichnung mit den vorhandenen Perlen und Platten nachzubauen.
+
+Im Grunde ist Regel eins die Basis für Regel 2:  Perlen sollen oder wollen in irgendeiner Form Arrangiert werden. Möglicherweise sind beides auch nur Teilaspekte der selben Regel, das hab ich noch nicht ganz raus. In der Kurzfassung schien mir die Aufteilung schlüssig, sobald ich aber über Details nachdenke, verschwimmen hier die Grenzen.
+
+Regel drei wird da schon klarer: Es geht um die konkrete Positionierung und Ausrichtung der Perlen. Diese Regel wird hier zu einem späteren Zeitpunkt nun detaillierter Ausgeführt, da sie verschiedene Formen und damit verbundenen Konventionen ankündigt.
+
+Regel vier bezieht sich auf den Umgang mit Farben, und das deren Einsatz zwar ebenfalls konventionen unterliegt, aber diese frei angewendet und umgedeutet werden können. Hier könnten Beispiele angefügt werden, aber das könnte eher unvorteilhaft sein, im Sinne eines Regelwerks das die exploration und kreativen regelbruch fördern soll.
+
+Regeln 5, 6 und 7 beziehen sich auf Arbeitsabläufe im Rahmen einer Spielsession. Das vorbereiten, umentscheiden, und beenden eines Motivs oder der gesamten Spielsession, wärend sich Regel acht eher auf die Nachbereitungen oder Folgen der Spielsession bezieht.
+
+			\subsubsection{cryptpadfreier erstanlauf}
+
+Hier der kopierte Text der letzten Schreibrunde, die sich ebenfalls um die Detailregeln drehte. Hier finden sich schon ansätze für Detailregeln zu REgel drei:
+
+Regeln für Bügelperlen im Detail
+
+Die Hauptregeln wurden bereits grundlegend formuliert, hier geht es jetzt um detailliertere beschreibungen und bedingungen. 
+
+Leider kann ich gerade aus mysteriösen Gründen nicht auf das Cryptpad mit den Grund- oder Hauptregeln zugreifen, dehalb leite ich die nachfolgenden Detailregeln aus dem txt.-Dokument "3.0 und 5.0 Bügelperlen" ab. Dadurch kann es zu dopplungen und inkostistenten Numerierungen und Begrifflichkeiten kommen. das sollte auf jeden Fall nochmal nachbearbeitet werden.
+
+I. und II. Perlen wollen in irgendeiner Form und auf verschiedene mögliche Arten arrangiert werden:
+a) linear als Strang:
+Das Mittelloch in den Bücgelperlen ist einerseits Rotationsachse und andererseits einziger Hinweis darauf, wie die Perle im Raum orientiert ist. Das Loch lädt aber zugleich dazu ein, die Perlen als Strang aufzufädeln. Die Perlen werden also Linear in einer reihe angeordnet, vermutlich auf einer mehr oder weniger Flexiblen Schnur oder einem Draht, eventuell auch parallel in mehreren strängen. Hier können bestimmt auch alle möglichen techniken genutzt werden, die aus der schmuckherstellung für perlenketten bekannt sind. Das ermöglicht ein breites Feld zum erkunden und austesten verschiedener Möglichkeiten, wie zum Beispiel verzweigen, (wieder)vereinen, Loops, Fraktale oder andere Mathespielereien...
+
+b) auf Zapfen(seite) der Mitgelieferten Platten aufstecken:
+Die Perlen lassen sich regulär oder irregulär auf die Platte stecken. Da die Zapfen der Grundplatte als Gegenstück zu den Mittelachsen der Perlen gedacht werden kann, wäre die reguläre Form, sie eben mit der Rotationsachse senkrecht zur Platte zentriert auf den Zapfen zu platzieren, also auf die Zapfen zu stecken. Irreguläres Platzieren könnte bedeuten, die Perlen nicht auf die zapfen zu stecken sondern dazwischen zu platzieren, oder die Ausrichtung der achse zu verändern oder zu ignorieren, auf die platte einfach perlen zufällig aufstreuen und ähnliches.
+
+Produktidee aus dieser feststellung: Warum gibt es eigentlich keine gekrümmten Grundplatten? nur wegen dem Bügeln? was wäre, wenn man das bügeln durch "grillen" im kontaktgrill ersetzen würde, sofern die Grundplatte der Hitze Standhält? - > Daraus ergibt sich, dass Material und verarbeitung/anwendung wechselwirken. eine metallplatte würde beim Bügeln probleme verursachen, eine termoplastikplatte im Backofen schmelzen, eine silikonmatte könnte man schlecht zur hitzequelle transportieren....
+
+	\section{4.X Formulierung von Herausforderungen innerhalb des Rahmens der regulären Bilderzeugung}
+
+	\section{4.X Kreation im Rahmen der Konventionen}
+	\begin{itemize}
+		\item Selbstbeobachtung/Überlegungen: Wie Kreativ kann ich innerhalb der Konventionen agieren? 
+		\item Kann Kreation, die die Regeln streng einhält, herausfordernder sein, als jene, die die Regelgrenzen übertritt?
+	\end{itemize}
+
+	\section{4.2 Impusle zum brechen, umgehen und erweitern der Regeln}
+		\subsection{4.2.X Gestaltungsmerkmale induzierten Regelbruchs}
+		möglichst unabhängig von der Frage, ob ein vorangelegter Regelbruch, bzw. die möglicherweise bewusst gestaltete Möglichkeit(/Provokation) zum Regelbruch im freien Spiel überhaupt als Regelbruch zu werten ist.
+
+		\subsection{4.2.X Regelbrüche jenseits von Gestaltungsmerkmalen}
+
+\chapter{5./X. (weitere) Vergleiche rund um den Komplex Spielzeug - Lernen - Kreativität}
+	erste, lose Gedanken dazu: (vermutlich umsortierungs- und erweiterungsbedürftig.)
+	\begin{itemize}
+		\item zischen den spielzeugen (konzeptionell/ in der wahrnehmung ihrer bildungsqualitäten?)
+		\item in der produktgestaltung: zwischen impulsen zur regeleinhaltung und zum regelbruch
+		\item zwischen Kreativitätskonzept und Regeln/Regelbruch
+	\end{itemize}
 
 
 \chapter{\sout{Verbreitung und Vielfalt von Regelbrüchen in Faninhalten auf populären Social-Media-Plattformen}}
 In einem weiteren Schritt versuche ich über eine kurze Analyse einer kleinen Handvoll der populärsten und neuesten Fan-Inhalte herauszufinden, ob sich ähnliche beobachtungen auch bei mir fremden Personen machen lassen, die nicht durch diese Forschungsarbeit beeinflusst sind, sich allerdings offenbar regelmäßiger und/oder längerfristig intensiver hobbymäßig oder professionalisiert mit den jeweiligen Spielzeugsystemen auseinandersetzen.
 
 
-\chapter{Fazit}
-gibt es einen sweetspot zwischen vorgaben und freiheiten, wenn es um kreative nutzung geht, und wo liegt er mutmaßlich, wenn ich die beiden Spielzeugsysteme betrachte? Diese Arbeit kann nicht beantworten, ob die hier getroffenen Annahmen oder gewonnenen Erkenntnisse für verschiedene Altersklassen und Entwicklungsstufen zutreffen oder gültig sind. Das überschreitet sowohl den Rahmen der Arbeit und meine Fachkompetenz im Feld der Entwicklungspsychologie.
+\chapter{Fazit/Schlussbewertungen}
+gibt es einen sweetspot zwischen vorgaben und freiheiten, wenn es um kreative nutzung geht, und wo liegt er mutmaßlich, wenn ich die beiden Spielzeugsysteme betrachte? Diese Arbeit kann nicht beantworten, ob die hier getroffenen Annahmen oder gewonnenen Erkenntnisse für verschiedene Altersklassen und Entwicklungsstufen zutreffen oder gültig sind. Das überschreitet sowohl den Rahmen der Arbeit als auch meine Fachkompetenz im Feld der Entwicklungspsychologie.
 
 \chapter{Anhang}
 Protokolle der Selbstbeobachtung? 
 
-\fi
+
+
 \chapter{Literaturverzeichnis/Quellen}
-%nochmal nachgucken, was von beidem denn jetzt aktuell dem "guten Stil" entspricht.
+-> nochmal nachgucken, was von beidem denn jetzt aktuell dem "guten Stil" entspricht.
 \printbibliography
 
 \iffalse
